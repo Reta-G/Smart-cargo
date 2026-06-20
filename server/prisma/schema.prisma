@@ -1,0 +1,122 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String @id @default(cuid())
+  name         String
+  email        String @unique
+  passwordHash String
+
+  role   String @default("CUSTOMER") // ADMIN | CUSTOMER | DRIVER
+  status String @default("ACTIVE")   // ACTIVE | INACTIVE
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  vehicles          Vehicle[]         @relation("DriverVehicles")
+  driverShipments   Shipment[]        @relation("DriverShipments")
+  customerShipments Shipment[]        @relation("CustomerShipments")
+  shipmentRequests  ShipmentRequest[]
+}
+
+model Message {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  subject   String
+  message   String
+  read      Boolean  @default(false)
+  createdAt DateTime @default(now())
+}
+
+model Vehicle {
+  id        String @id @default(cuid())
+  vehicleNo String @unique
+  type      String
+  status    String @default("AVAILABLE") // AVAILABLE | IN_TRANSIT | MAINTENANCE
+
+  driverName String?
+  lastSeen   String?
+
+  driverId String?
+  driver   User?   @relation("DriverVehicles", fields: [driverId], references: [id], onDelete: SetNull)
+
+  shipments Shipment[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([driverId])
+}
+
+model Shipment {
+  id String @id @default(cuid())
+
+  shipmentNo  String @unique
+  client      String
+  origin      String
+  destination String
+
+  status String  @default("PENDING") // PENDING | IN_TRANSIT | DELIVERED | DELAYED
+  eta    String?
+
+  driverName String?
+
+  // Live location (updated by driver)
+  currentLat     Float?
+  currentLng     Float?
+  lastLocationAt DateTime?
+
+  // Proof of delivery
+  deliveryNotes String?
+  recipientName String?
+  deliveredAt   DateTime?
+
+  // Driver relation
+  driverId String?
+  driver   User?   @relation("DriverShipments", fields: [driverId], references: [id], onDelete: SetNull)
+
+  // Customer relation
+  customerId String?
+  customer   User?   @relation("CustomerShipments", fields: [customerId], references: [id], onDelete: SetNull)
+
+  // Vehicle relation
+  vehicleId String?
+  vehicle   Vehicle? @relation(fields: [vehicleId], references: [id], onDelete: SetNull)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([driverId])
+  @@index([customerId])
+  @@index([vehicleId])
+}
+
+model ShipmentRequest {
+  id        String @id @default(cuid())
+  requestNo String @unique
+
+  origin      String
+  destination String
+
+  cargoType String?
+  weightKg  Float?
+  notes     String?
+
+  status String @default("NEW") // NEW | APPROVED | REJECTED
+
+  customerId String
+  customer   User   @relation(fields: [customerId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([customerId])
+  @@index([status])
+}

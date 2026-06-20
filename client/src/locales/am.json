@@ -1,0 +1,178 @@
+{
+  "systemSettings": {
+    "title": "የሲስተም ቅንብሮች",
+    "description": "ከዚህ በታች የሲስተም ቅንብሮችን ያስተካክሉ።",
+    "languageLabel": "ቋንቋ",
+    "language_en": "English",
+    "language_am": "አማርኛ",
+    "saveSuccess": "ቋንቋ ተቀምጧል"
+  },
+  "navbar": {
+    "solutions": "መፍትሄዎች",
+    "about": "ስለ እኛ",
+    "contact": "ያግኙን",
+    "login": "ግባ",
+    "logout": "ውጣ"
+  },
+  "buttons": {
+    "export": "ውጤት ያውጡ",
+    "newShipment": "የአዲስ ጭነት ፍጠር",
+    "close": "ዝጋ"
+  },
+  "dashboard": {
+    "title": "ዳሽቦርድ",
+    "subtitle": "የጭነቶች፣ ፍለጋ እና ቁልፍ መለኪያዎች እይታ.",
+    "liveMap": "ቀጥታ ካርታ",
+    "liveMapDesc": "የተሽከርካሪዎች ቦታ በእውነተኛ ጊዜ",
+    "quickAnalytics": "ፈጣን ትንተና",
+    "quickAnalyticsDesc": "ቁልፍ መለኪያዎች በአንድ ዕይታ",
+    "recentShipments": "የቅርብ ጊዜ ጭነቶች",
+    "recentShipmentsDesc": "አዲስ ጭነቶች እና ሁኔታ",
+    "export": "ውጤት ያውጡ",
+    "newShipment": "የአዲስ ጭነት ፍጠር",
+    "user": {
+      "title": "የተጠቃሚ ዳሽቦርድ",
+      "description": "የግምገማ ሁኔታ ለርስዎ ጭነቶች ነው።"
+    },
+    "driver": {
+      "title": "የአወዳድር ዳሽቦርድ",
+      "subtitle": "የተሰጠዎት ጭነቶች። ሁኔታ ያድሱ እና ቦታ ላክ።"
+    }
+  },
+  "footer": {
+    "tagline": "ቀላል ሎጂስቲክስ፣ እንደገና ትራንስፖርት.",
+    "quickLinks": "ፈጣን አገናኝ",
+    "connectStatus": "አገናኝ እና ሁኔታ",
+    "systemOnline": "ስርዓት ኦንላይን",
+    "version": "ስሪት 1.0.0 | እድገት 99.98%",
+    "copyright": "© 2026 የስማርት ትራንስፖርት እና ካርጎ የሥራ ስርዓት። መብቶች የተጠበቁ.",
+    "dashboard": "ዳሽቦርድ",
+    "fleetManagement": "የተሽከርካሪ አስተዳደር",
+    "shipments": "ጭነቶች",
+    "userManagement": "የተጠቃሚ አስተዳደር",
+    "support": "ድጋፍ",
+    "privacy": "ግልነት"
+  },
+  "login": {
+    "login": "ግባ",
+    "signup": "ይመዝገቡ",
+    "emailPlaceholder": "ኢሜይል",
+    "passwordPlaceholder": "የሚስጥር ቁልፍ",
+    "namePlaceholder": "ሙሉ ስም",
+    "noAccount": "አካውንት የለዎትም?",
+    "haveAccount": "አካውንት አለዎት?",
+    "forgot": "የሚስጥር ቁልፍ ረሱ?",
+    "register": "ይመዝገቡ"
+  },
+  "hero": {
+    "welcome": "እንኳን ደህና መጡ!",
+    "subtitle": "የኢትዮጵያን መጓጓዣ እና ሎጂስቲክስ ስርዓት እንዲበረታ",
+    "demoButton": "የሙከራ ማሳያ ይጠይቁ",
+    "learnMoreButton": "ተጨማሪ ይማሩ"
+  },
+  "stats": {
+    "successfulServices": "የተሳካ የመጓጓዣ አገልግሎቶች",
+    "routes": "የመሬት ጭነት መንገዶች",
+    "workLocations": "የሥራ ክልሎች",
+    "vehicles": "የተሽከርካሪ መኪናዎች"
+  },
+  "services": {
+    "title": "አገልግሎቶቻችን",
+    "subtitle": "የተለያዩ የሎጂስቲክስ አገልግሎቶች",
+    "description": "SmartCargo የመጓጓዣ ስርዓቶችን እና የጭነት አስተዳደርን ለማሻሻል የተነደፉ ዘመናዊ ዲጂታል የሎጂስቲክስ መፍትሄዎችን ከመጀመሪያ እስከ መጨረሻ ይሰጣል።"
+  },
+  "howItWorks": {
+    "workflow": "የሥራ ሂደት ልዩነት",
+    "title": "ካርጎን በመላክ",
+    "highlight": "ያለ ተግዳሮት",
+    "description": "ፈጣን፣ አስተማማኝ እና ገለጻ የሎጂስቲክስ መፍትሄዎች ከመውሰድ እስከ ማቅረብ ድረስ።",
+    "optimizeTitle": "የአቅርቦት ሰንሰለትዎን ያሳድጉ",
+    "optimizeDescription": "ዛሬ ከሎጂስቲክስ ባለሙያ ጋር ተናገሩ ለተየበ እቅድ።",
+    "bookDemo": "ዲሞ ያዝዙ",
+    "viewPricing": "የዋጋ ዝርዝር ይመልከቱ",
+    "getQuote": "ፈጣን ዋጋ ያግኙ"
+  },
+  "about": {
+    "modernLogistics": "ዘመናዊ መጋዘን",
+    "digitalLogistics": "ዲጂታል ሎጂስቲክስ",
+    "tagline": "አንዳንድ",
+    "title": "ስለ እኛ",
+    "description": "ስማርት ካርጎ ዓለም አቀፍ የአቅርቦት ሰንሰለትን በዘመናዊ አውቶሜሽን እና በቀጥታ የመረጃ ትንታኔ በመጠቀም እየቀየረ ይገኛል።",
+    "learnMore": "ተጨማሪ ይመልከቱ"
+  },
+  "contact": {
+    "smartAnalysis": "አስቸኳይ ጭነት መሆኑን ያመለክታል፣ የፈጣን አየር መጓጓዣ ሊያስፈልግ ይችላል።",
+    "title": "ያግኙን",
+    "subtitle": "ለንግድዎ የተመረጡ የሎጂስቲክስ መፍትሄዎችና የታመነ የአቅርቦት ሰንሰለት አውታረ መረብ።",
+    "contact": "ያግኙ",
+    "description": "ከ500+ በላይ ዓለም አቀፍ መንገዶች ላይ የሚሰሩ ዘመናዊ የሎጂስቲክስ መፍትሄዎችና የቀጥታ ክትትል።",
+    "name": "ስም",
+    "namePlaceholder": "ስምዎን ያስገቡ",
+    "email": "ኢሜይል",
+    "emailPlaceholder": "ኢሜይልዎን ያስገቡ",
+    "subject": "ርዕሰ ጉዳይ",
+    "subjectPlaceholder": "ርዕሰ ጉዳዩን ያስገቡ",
+    "message": "መልዕክት",
+    "messagePlaceholder": "መልዕክትዎን እዚህ ይጻፉ",
+    "smartAnalysisButton": "የስማርት ትንታኔ",
+    "phone1": "+251 58 220 1234",
+    "phone2": "+251 91 234 5678",
+    "emailAddress": "support@smartcargo.com",
+    "address": "ባህር ዳር፣ ኢትዮጵያ",
+    "aiAnalysis": "የAI የሎጂስቲክስ ቅድመ እይታ፦",
+    "sending": "በመላክ ላይ...",
+    "sendMessage": "መልዕክት ላክ",
+    "footerText": "© 2026 SmartCargo ዓለም አቀፍ ሎጂስቲክስ",
+    "privacyPolicy": "የግላዊነት ፖሊሲ",
+    "termsOfService": "የአገልግሎት መመሪያዎች"
+  },
+  "servicesData": {
+    "groundShipping": "የመሬት ጭነት መጓጓዣ",
+    "groundShippingDesc": "በክልሎች መሰረት የታመነና የተሻሻለ የመንገድ መጓጓዣ አገልግሎቶች።",
+    "smartTracking": "የስማርት ጭነት እይታ",
+    "smartTrackingDesc": "ከ GPS ስር የሚታዩ የጭነት መቆጣጠሪያ ስርዓቶች ጋር በቅኝ ጊዜ መቆጣጠር።",
+    "fleetManagement": "የተሽከርካሪና ኮንቴነር አስተዳደር",
+    "fleetManagementDesc": "የተሽከርካሪዎች፣ አወዳድሮችና ኮንቴነሮች ማእከላዊ አስተዳደር።"
+  },
+  "howItWorksData": {
+    "requestQuote": "የዋጋ ጥያቄ አቅርብ",
+    "requestQuoteDesc": "የጭነት ዝርዝሮችን ለAI-ሚተዳደር ፈጣን ዋጋ አቅርብ እና ሙሉ ግልፅነት ያለው ወጪ ያግኙ።",
+    "cargoProcessing": "የጭነት ማስተካከል",
+    "cargoProcessingDesc": "በአስተማማኝ ቦታዎቻችን ሙያዊ ደረጃ ማስተካከል እና የሰነድ እና የደህንነት ምርመራዎችን ጨምሮ።",
+    "liveTransit": "ቀጥታ መሄድ",
+    "liveTransitDesc": "ከመጨረሻ እስከ መጨረሻ ተያይነት ከ GPS መከታተል እና በዓለም አቀፍ ፍሎት አውታር በኩል ትንበያ ETA ማስተካከሎች።",
+    "proofOfArrival": "የመድረሻ ማስረጃ",
+    "proofOfArrivalDesc": "ያልተገናኘ ተላላኪ ከዲጂታል ማስረጃ እና ወደ ማጠናቀቂያ የሚለካ የእርካታ ግብልባት አያያዝ።"
+  },
+  "user": {
+    "request_shipment": "ጭነት ይጠይቁ",
+    "my_shipments": "የኔ ጭነቶች",
+    "recent_requests": "የቅርብ ጊዜ ጥያቄዎች"
+  },
+  "quote": {
+    "title": "AI ፈጣን ዋጋ",
+    "subtitle": "ግልፅ የወጪ ግምት በሰከንዶች ያግኙ።",
+    "origin": "መነሻ",
+    "originPlaceholder": "ለምሳሌ አዲስ አበባ",
+    "destination": "መድረሻ",
+    "destinationPlaceholder": "ለምሳሌ ናይሮቢ",
+    "cargoType": "የጭነት አይነት",
+    "weightKg": "ክብደት (ኪ.ግ)",
+    "volumeM3": "መጠን (ሜ³)",
+    "urgent": "አስቸኳይ ማድረስ",
+    "calculate": "ዋጋ አስሉ",
+    "calculating": "በማስላት ላይ...",
+    "breakdown": "የወጪ ዝርዝር",
+    "freight": "ጭነት",
+    "fuel": "የነዳጅ ተጨማሪ",
+    "handling": "የማስተናገጃ ክፍያ",
+    "urgentFee": "አስቸኳይ ፕሪሚየም",
+    "total": "ጠቅላላ ግምት",
+    "transit": "የሚጠበቅ ጊዜ",
+    "days": "ቀናት",
+    "valid": "ለ24 ሰዓት ይሰራል",
+    "currency": "ብር",
+    "requestShipment": "ይህን ጭነት ይጠይቁ",
+    "tryAgain": "እንደገና ሞክር"
+  }
+}

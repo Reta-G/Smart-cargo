@@ -1,0 +1,13 @@
+# Root
+node_modules/
+
+# Client
+client/node_modules/
+client/dist/
+client/.env.local
+
+# Server
+server/node_modules/
+server/.env
+server/prisma/dev.db
+server/prisma/dev.db-journal

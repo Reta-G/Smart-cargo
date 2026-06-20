@@ -1,0 +1,1 @@
+INSERT INTO "public"."Vehicle" ("id", "vehicleNo", "type", "status", "driverName", "lastSeen", "driverId", "createdAt", "updatedAt") VALUES ('cmo6vevza0002vfrgk1yg11us', 'car', 'Semi-Trailer', 'AVAILABLE', 'aaaa', 'Just now', 'cmo6tb40k0000vfdwurh2nh4v', '2026-04-20 07:25:45.756', '2026-04-20 07:40:25.308');

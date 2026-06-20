@@ -1,0 +1,9 @@
+id,requestNo,origin,destination,cargoType,weightKg,notes,status,customerId,createdAt,updatedAt
+cmo5kbhur0001vff4wbn2jcmt,REQ-7B3A2120,Berlin,Munich,Boxes,120,Handle with care,NEW,cmo5hk6yn0001vffkulwc8ooo,2026-04-19 09:27:24.487,2026-04-19 09:27:24.487
+cmo5kycrt0003vff46tzyooj4,REQ-A263BB47,ds,xz,zzz,,xxxxxxxxxxxxxxxxxxxxxxxxxxx,REJECTED,cmo5hk6yn0001vffkulwc8ooo,2026-04-19 09:45:12.045,2026-04-19 21:05:53.737
+cmo68dcvs0001vfrcvb7ba4ey,REQ-7769D0FE,exes,cdcdcd,cdcdc,1123,give me,APPROVED,cmo4pj7ls0002vf0896ompsyk,2026-04-19 20:40:43.111,2026-04-19 20:41:18.071
+cmo68wy720001vf2odnvepssa,REQ-846592F4,cdcd,dcdcd,dcdc,1111,ssxsdsds,APPROVED,cmo4pj7ls0002vf0896ompsyk,2026-04-19 20:55:57.461,2026-04-19 20:56:25.257
+cmo69987j0005vf2o92wh0pz8,REQ-F5485950,edcd,dcdcdcd,cdcdcd,122222222222,xxxxxxxxxxxxxxxxxxxx,REJECTED,cmo4pj7ls0002vf0896ompsyk,2026-04-19 21:05:30.319,2026-04-19 21:05:47.101
+cmo69ahdf0007vf2ohhu97m9i,REQ-702EB046,cdcd,cdcdc,dcdcdc,333333333333,cdcc,APPROVED,cmo4pj7ls0002vf0896ompsyk,2026-04-19 21:06:28.851,2026-04-19 21:06:48.936
+cmo6tw1xn0003vfdwu8xjiz4k,REQ-DF7DAE6A,ethiopia,USA,car,1000,deliver on time,APPROVED,cmo6tuxtj0001vfdwzrh56srs,2026-04-20 06:43:06.666,2026-04-20 06:44:55.082
+cmo9tuxbi0002vfu4lkngbv5p,REQ-589E5581,ba,ca,snsj,100,sjnjscnjsdcnsdjcn,APPROVED,cmo9tnktb0000vfu4bm2sdqhx,2026-04-22 09:05:33.336,2026-04-22 09:06:43.218

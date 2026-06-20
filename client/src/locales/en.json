@@ -1,0 +1,178 @@
+{
+  "systemSettings": {
+    "title": "System Settings",
+    "description": "Adjust system settings below.",
+    "languageLabel": "Language",
+    "language_en": "English",
+    "language_am": "Amharic",
+    "saveSuccess": "Language saved"
+  },
+  "navbar": {
+    "solutions": "Solutions",
+    "about": "About Us",
+    "contact": "Contact",
+    "login": "Log in",
+    "logout": "Logout"
+  },
+  "buttons": {
+    "export": "Export",
+    "newShipment": "New Shipment",
+    "close": "Close"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Overview of shipments, fleet and key metrics.",
+    "liveMap": "Live Map",
+    "liveMapDesc": "Real-time vehicle locations",
+    "quickAnalytics": "Quick Analytics",
+    "quickAnalyticsDesc": "Key metrics at a glance",
+    "recentShipments": "Recent Shipments",
+    "recentShipmentsDesc": "Latest shipments and status",
+    "export": "Export",
+    "newShipment": "New Shipment",
+    "user": {
+      "title": "User Dashboard",
+      "description": "Here is your shipment overview."
+    },
+    "driver": {
+      "title": "Driver Dashboard",
+      "subtitle": "Your assigned shipments. Update status and send location."
+    }
+  },
+  "footer": {
+    "tagline": "Seamless logistics, smarter deliveries.",
+    "quickLinks": "Quick Links",
+    "connectStatus": "Connect & Status",
+    "systemOnline": "System Online",
+    "version": "Version 1.0.0 | Uptime 99.98%",
+    "copyright": "© 2026 Smart Transport & Cargo Management System. All rights reserved.",
+    "dashboard": "Dashboard",
+    "fleetManagement": "Fleet Management",
+    "shipments": "Shipments",
+    "userManagement": "User Management",
+    "support": "Support",
+    "privacy": "Privacy"
+  },
+  "login": {
+    "login": "Login",
+    "signup": "Sign Up",
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Password",
+    "namePlaceholder": "Full name",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "forgot": "Forgot password?",
+    "register": "Register"
+  },
+  "hero": {
+    "welcome": "Welcome!",
+    "subtitle": "to Ethiopia's premier logistics system",
+    "demoButton": "Request Demo",
+    "learnMoreButton": "Learn More"
+  },
+  "stats": {
+    "successfulServices": "Successful Shipping Services",
+    "routes": "Ground Shipping Routes",
+    "workLocations": "Work Locations",
+    "vehicles": "Vehicles"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Various Logistics Services",
+    "description": "SmartCargo provides modern digital logistics solutions to improve shipping systems and cargo management from start to finish."
+  },
+  "howItWorks": {
+    "workflow": "Workflow Excellence",
+    "title": "Shipping cargo with",
+    "highlight": "zero friction",
+    "description": "Fast, secure, and transparent logistics solutions from pickup to delivery.",
+    "optimizeTitle": "Optimize Your Supply Chain",
+    "optimizeDescription": "Speak with a logistics specialist today for a customized plan.",
+    "bookDemo": "Book a Demo",
+    "viewPricing": "View Pricing",
+    "getQuote": "Get Instant Quote"
+  },
+  "about": {
+    "modernLogistics": "Modern Logistics",
+    "digitalLogistics": "Digital Logistics",
+    "tagline": "Some",
+    "title": "About Us",
+    "description": "Smart Cargo is transforming global supply chains using modern automation and real-time data analytics. By precisely controlling the process from pickup to full delivery, it ensures that every shipment, package and asset arrives with the highest accuracy.",
+    "learnMore": "Learn More"
+  },
+  "contact": {
+    "smartAnalysis": "Indicates urgent shipment, may require express air freight.",
+    "title": "Contact Us",
+    "subtitle": "Selected logistics solutions and reliable supply chain network for your business.",
+    "contact": "Contact",
+    "description": "Modern logistics solutions and real-time control on over 500+ global routes.",
+    "name": "Name",
+    "namePlaceholder": "Enter your name",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email",
+    "subject": "Subject",
+    "subjectPlaceholder": "Enter the subject",
+    "message": "Message",
+    "messagePlaceholder": "Write your message here",
+    "smartAnalysisButton": "Smart Analysis",
+    "phone1": "+251 58 220 1234",
+    "phone2": "+251 91 234 5678",
+    "emailAddress": "support@smartcargo.com",
+    "address": "Bahir Dar, Ethiopia",
+    "aiAnalysis": "AI Logistics Preview:",
+    "sending": "Sending...",
+    "sendMessage": "Send Message",
+    "footerText": "© 2026 SmartCargo Global Logistics",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "servicesData": {
+    "groundShipping": "Ground Shipping",
+    "groundShippingDesc": "Region-based and optimized road shipping services.",
+    "smartTracking": "Smart Cargo Tracking",
+    "smartTrackingDesc": "Real-time cargo monitoring systems with GPS integration.",
+    "fleetManagement": "Fleet and Container Management",
+    "fleetManagementDesc": "Centralized management of vehicles, drivers and containers."
+  },
+  "howItWorksData": {
+    "requestQuote": "Request a Quote",
+    "requestQuoteDesc": "Submit cargo details for an AI-powered instant quote with total transparency on landed costs.",
+    "cargoProcessing": "Cargo Processing",
+    "cargoProcessingDesc": "Professional grade handling at our secure facilities including documentation and safety audits.",
+    "liveTransit": "Live Transit",
+    "liveTransitDesc": "End-to-end visibility with GPS tracking and predictive ETA updates via our global fleet network.",
+    "proofOfArrival": "Proof of Arrival",
+    "proofOfArrivalDesc": "Contactless delivery with digital proof and instant satisfaction feedback integration."
+  },
+  "user": {
+    "request_shipment": "Request Shipment",
+    "my_shipments": "My Shipments",
+    "recent_requests": "Recent Requests"
+  },
+  "quote": {
+    "title": "AI Instant Quote",
+    "subtitle": "Get a transparent landed-cost estimate in seconds.",
+    "origin": "Origin",
+    "originPlaceholder": "e.g. Addis Ababa",
+    "destination": "Destination",
+    "destinationPlaceholder": "e.g. Nairobi",
+    "cargoType": "Cargo Type",
+    "weightKg": "Weight (kg)",
+    "volumeM3": "Volume (m³)",
+    "urgent": "Urgent delivery",
+    "calculate": "Calculate Quote",
+    "calculating": "Calculating...",
+    "breakdown": "Cost Breakdown",
+    "freight": "Freight",
+    "fuel": "Fuel Surcharge",
+    "handling": "Handling Fee",
+    "urgentFee": "Urgent Premium",
+    "total": "Total Estimate",
+    "transit": "Est. Transit",
+    "days": "days",
+    "valid": "Valid for 24 hours",
+    "currency": "ETB",
+    "requestShipment": "Request This Shipment",
+    "tryAgain": "Try Again"
+  }
+}
