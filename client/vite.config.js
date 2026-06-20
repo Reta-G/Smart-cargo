@@ -7,6 +7,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: '/Smart-cargo/',
   server: {
     port: 5173,
   },
